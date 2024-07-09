@@ -1,0 +1,19 @@
+{
+  "name": "email-queue-service",
+  "version": "1.0.0",
+  "description": "Node.js application for handling email sending with a queue and internet connectivity check",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node testScript.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bull": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "ioredis": "^4.28.3",
+    "nodemailer": "^6.7.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
